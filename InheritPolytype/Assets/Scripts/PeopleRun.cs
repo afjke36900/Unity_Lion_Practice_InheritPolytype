@@ -35,7 +35,7 @@ public class PeopleRun : People
             // 執行後會將取得的隨機點儲存在 hit 參數內
             NavMesh.SamplePosition(pointRan, out hit, 5, 1);
             // 最終座標 = 碰撞點的座標
-            Vector3 final = hit.position;
+            final = hit.position;
         }
 
         // 代理器.設定目的地(座標 - 三維向量)
